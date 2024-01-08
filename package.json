@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mysql",
+  "version": "1.0.0",
+  "description": "Connect mysql",
+  "main": "index.js",
+  "repository": "https://github.com/pershiba-velusamy06/nodejs-mysql.git",
+  "author": "pershiba",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    ".": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
